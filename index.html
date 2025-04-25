@@ -337,6 +337,16 @@
         </footer>
         
         <script>
+            window.onload = function() {
+    $('.sidebar').hide();
+};
+
+function showSidebar() {
+    $('.sidebar').toggle();
+    $('.sidebar').css("opacity","1");
+}
+
+            
         
         AOS.init();
         
