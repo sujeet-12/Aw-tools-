@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Soch kar batata hoon ok</title>
+       <link rel="stylesheet" href="style.css"></link>
+           <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    </head>
+    <body>
+        <header id="hero">
+             <logo>A</logo>
+            <h2>Alone Warrior</h2>
+             <iconify-icon onclick="showSidebar()" icon="fa6-solid:grip-lines" width="24px" height="24px"></iconify-icon>
+            
+        </header>
+        
+        <nav class="sidebar">
+            <ul>
+               <a onclick="showSidebar()" href="#"><iconify-icon icon="solar:home-smile-angle-linear" width="24px" height="24px"></iconify-icon> Home</a>
+               <a onclick="showSidebar()" href="#pick"><iconify-icon icon="codicon:tools" width="24px" height="24px"></iconify-icon> Our Tools</a>
+               <a onclick="showSidebar()" href="#work"><iconify-icon icon="ic:outline-workspaces" width="24px" height="24px"></iconify-icon> Our Team</a>
+               <a onclick="showSidebar()" href="#cont"><iconify-icon icon="icon-park-outline:connect" width="24px" height="24px"></iconify-icon> Let's Connect</a>
+               
+            </ul>
+            
+            <button><p>Go To PRO</p> <iconify-icon icon="mdi:shield-crown" width="24px" height="24px"></iconify-icon></button>
+        </nav>
+        
+        <main>
+            <hero>
+            
+                <div class="hero-grid-overlay"></div>
+                <logo>A</logo>
+                
+                <h1>Free <text>Tools</text> for your Website</h1>
+                    <br>
+                <h2> Elevate your site With Our <text>Tools</text></h2>
+                <br />
+            
+    <p>Our site is ready to help you & create a good components or UI designs with our tools can improve all your components.</p>
+<br/>
+
+  <a href="#tool"> <button class="glow-btn"> Explore All Tools <iconify-icon icon="formkit:arrowright" width="24px" height="24px"></iconify-icon>  </button> </a>
+   
+
+ 
+    <br />
+    <span id="pick">
+     <a href="#gi">
+     Scroll down
+        <iconify-icon id="scroll" icon="cuida:arrow-down-outline" width="24px" height="24px"></iconify-icon>
+        
+        </a>
+    </span>
+    
+            </hero>
+            
+            
+            <section id="tool">
+                <h3>Our Tools</h3>
+                
+                <div class="cards">
+                    <card id="grg" data-aos="slide-down">
+                    <div class="hero-grid-overlay"></div>
+                    <iconify-icon icon="fluent:grid-16-filled" width="24px" height="24px"></iconify-icon>
+                        <h2>Grid Gentator</h2>
+                        <p>A high level tool for your grid layout projects.</p>
+                    </card>
+                    
+                    <card id="cop" data-aos="slide-down">
+                    <div class="hero-grid-overlay"></div>
+                    <iconify-icon icon="solar:pallete-2-bold" width="24px" height="24px"></iconify-icon>
+                         <h2>Color Pallete</h2>
+                        <p>A Tool that help you to select new fresh pallete everytime. </p>
+                    </card>
+                    
+                      <card id="gg" data-aos="slide-down">
+                      <div class="hero-grid-overlay"></div>
+                       <iconify-icon icon="material-symbols:gradient" width="24px" height="24px"></iconify-icon>
+                        <h2>Gradient Gentator</h2>
+                        <p>Use this tool to get new gradients for projects.</p>
+                    </card>
+                    
+                    <card id="ldc" data-aos="slide-down">
+                    <div class="hero-grid-overlay"></div>
+                    <iconify-icon icon="icon-park-solid:dark-mode" width="24px" height="24px"></iconify-icon>
+                         <h2>Light Dark Checker</h2>
+                        <p>Tool that help you to select best light/dark theme. </p>
+                    </card>
+                    
+                      
+                </div>
+                
+               
+                <h4 id="m">See More <iconify-icon icon="meteor-icons:angle-right" width="24px" height="24px"></iconify-icon></h4>
+                
+               
+            </section>
+            
+            <section class="next-gen-cards" id="gi">
+  <h3>Dynamic Components</h3>
+  
+  <div class="card-carousel">
+    <!-- Card 1 -->
+    <card class="glow-card" data-aos="fade-up" style="--grad-start: #CB97FC; --grad-end: #578CFF">
+      <div class="dot-pattern"></div>
+      <iconify-icon icon="mdi:atom" width="30"></iconify-icon>
+      <h4>Neon Grids</h4>
+      <p>Fluid layouts with animated guides</p>
+      <div class="pulse"></div>
+    </card>
+    
+    <!-- Card 2 -->
+    <card class="glow-card" data-aos="fade-up" style="--grad-start: #FF6B81; --grad-end: #FF4757">
+      <div class="dot-pattern"></div>
+      <iconify-icon icon="mdi:palette" width="30"></iconify-icon>
+      <h4>Color Waves</h4>
+      <p>Auto-generating palettes</p>
+      <div class="pulse"></div>
+    </card>
+    
+    <!-- Card 3 -->
+    <card class="glow-card" data-aos="fade-up" style="--grad-start: #2ED573; --grad-end: #1ABC9C">
+      <div class="dot-pattern"></div>
+      <iconify-icon icon="mdi:responsive" width="30"></iconify-icon>
+      <h4>Flex Flow</h4>
+      <p>Device-aware components</p>
+      <div class="pulse"></div>
+    </card>
+  </div>
+</section>
+
+            <section id="work">
+                <div class="stats-container">
+  <div class="stat">
+    <div class="counter"  data-target="2500">0</div>
+    <p>Components</p>
+  </div>
+  <div class="stat">
+    <div class="counter"  data-target="98">0</div>
+    <p>Satisfaction</p>
+  </div>
+</div>
+            </section>
+            <section id="hritik">
+                <h3>our Team</h3>
+                <div class="work">
+                <img data-aos="fade-top" id="hg" src="https://static.vecteezy.com/system/resources/previews/022/484/651/non_2x/happy-3d-student-boy-with-books-on-white-background-transparent-background-free-png.png?hl=en-US" alt="hritik bhaiya"/>
+                    <img data-aos="fade-top" src="https://png.pngtree.com/png-vector/20231001/ourmid/pngtree-cartoon-three-dimensional-3d-cute-girl-doll-toy-model-decorative-pattern-png-image_10132155.png?hl=en-US"/>
+                    <img data-aos="fade-top" src="https://static.vecteezy.com/system/resources/thumbnails/024/346/446/small_2x/3d-happy-cartoon-boy-on-transparent-background-generative-ai-png.png?hl=en-US">
+                    <img data-aos="fade-top" src="https://png.pngtree.com/png-clipart/20240927/original/pngtree-3d-cartoon-boy-character-png-image_16110723.png?hl=en-US">
+                    <img data-aos="fade-top" src="https://static.vecteezy.com/system/resources/previews/036/049/534/non_2x/3d-render-illustration-of-cute-boy-free-png.png?hl=en-US">
+                    <img data-aos="fade-top" src="https://static.vecteezy.com/system/resources/previews/022/484/378/non_2x/cute-and-cheerful-3d-girl-model-transparent-background-free-png.png?hl=en-US">
+                </div>
+            </section>
+            
+              <section>
+                <div class="testimonial-slider" data-aos="slide-right">
+  <!-- Slide 1 -->
+  <div class="slide active" >
+  <div class="hero-grid-overlay"></div>
+    <div class="user">
+      <img src="https://play-lh.googleusercontent.com/t2tJJ3PvHpZwSVH20B7zGBqcqMrUMnNpQ8re_BiS6vqdxboDm_RM_pcJvuRY-n8KvGA=w526-h296-rw?hl=en-US" alt="AW">
+      <h4>Manpreet K.</h4>
+    </div>
+    <p>"These tools saved me 20 hours of coding!"</p>
+  </div>
+  
+  <!-- Slide 2 -->
+  <div class="slide">
+  <div class="hero-grid-overlay"></div>
+    <div class="user">
+      <img src="https://img.freepik.com/premium-vector/cute-woman-avatar-profile-vector-illustration_1058532-14592.jpg?hl=en-US" alt="AW">
+      <h4>Ishani G.</h4>
+    </div>
+    <p>"The gradient generator is my new favorite tool."</p>
+  </div>
+  
+  <!-- Slide 3 -->
+  <div class="slide">
+  <div class="hero-grid-overlay"></div>
+    <div class="user">
+      <img src="https://img.freepik.com/premium-vector/boy-with-blue-hoodie-blue-hoodie-with-hoodie-it_1230457-42660.jpg?hl=en-US" alt="AW">
+      <h4>Ritik G.</h4>
+    </div>
+    <p>"Finally, dark mode components that actually work."</p>
+  </div>
+  
+  <!-- Navigation Dots -->
+  <div class="slider-dots">
+    <span class="dot active" data-slide="0"></span>
+    <span class="dot" data-slide="1"></span>
+    <span class="dot" data-slide="2"></span>
+  </div>
+</div>
+            </section>
+            
+            <section class="ca">
+                 <div class="card" id="work">
+              
+                    <h4>  <iconify-icon icon="el:quotes" width="40px" height="40px"></iconify-icon> we build your dream, dream which defines you!</h4>
+                </div>
+            </section>
+            
+            <section id="pricing">
+  <h3>Upgrade Your Experience</h3>
+  
+  <div class="pricing-grid">
+    <!-- Free Tier -->
+    <card class="pricing-card" data-aos="zoom-in">
+      <h4>Starter</h4>
+      <div class="price">$0<span>/month</span></div>
+      <ul>
+        <li><iconify-icon icon="mdi:check" width="24px" height="24px"></iconify-icon> Basic Components</li>
+        <li><iconify-icon icon="mdi:check" width="24px" height="24px"></iconify-icon> Community Support</li>
+        <li><iconify-icon icon="mdi:close" width="24px" height="24px"></iconify-icon> Premium Tools</li>
+      </ul>
+      <button class="outline">Current Plan</button>
+    </card>
+    
+    <!-- Pro Tier (Highlighted) -->
+    <card class="pricing-card highlight " data-aos="zoom-in">
+      <div class="popular-badge">Most Popular</div>
+      <h4>Professional</h4>
+      <div class="price">$9<span>/month</span></div>
+      <ul>
+        <li><iconify-icon icon="mdi:check" width="24px" height="24px"></iconify-icon> All Free Features</li>
+        <li><iconify-icon icon="mdi:check" width="24px" height="24px"></iconify-icon> Priority Support</li>
+        <li><iconify-icon icon="mdi:check" width="24px" height="24px"></iconify-icon> Advanced Tools</li>
+      </ul>
+      <button>Upgrade Now</button>
+    </card>
+    
+    <!-- Enterprise Tier -->
+    <card class="pricing-card" data-aos="zoom-in">
+      <h4>Enterprise</h4>
+      <div class="price">$29<span>/month</span></div>
+      <ul>
+        <li><iconify-icon icon="mdi:check" width="24px" height="24px"></iconify-icon> Everything in Pro</li>
+        <li><iconify-icon icon="mdi:check" width="24px" height="24px"></iconify-icon> White-labeling</li>
+        <li><iconify-icon icon="mdi:check" width="24px" height="24px"></iconify-icon> Dedicated Support</li>
+      </ul>
+      <button class="outline">Contact Us</button>
+    </card>
+  </div>
+</section>
+
+<style>
+/* Add this to your CSS */
+
+</style>
+
+            
+            <section id="faq">
+  <h3>Frequently Asked Questions</h3>
+  
+  <div class="faq-container">
+    <!-- FAQ Item 1 -->
+    <div class="faq-item">
+      <div class="faq-question">
+        <h4>How do I use these components?</h4>
+        <iconify-icon icon="mdi:chevron-down" class="chevron"></iconify-icon>
+      </div>
+      <div class="faq-answer">
+        <p>All components use your existing CSS variables. Just copy the HTML/CSS into your project - no extra dependencies needed.</p>
+      </div>
+    </div>
+    
+    <!-- FAQ Item 2 -->
+    <div class="faq-item">
+      <div class="faq-question">
+        <h4>Are these components responsive?</h4>
+        <iconify-icon icon="mdi:chevron-down" class="chevron"></iconify-icon>
+      </div>
+      <div class="faq-answer">
+        <p>Yes! Every component is designed to work on mobile, tablet, and desktop.</p>
+      </div>
+    </div>
+    
+    <!-- FAQ Item 3 -->
+    <div class="faq-item">
+      <div class="faq-question">
+        <h4>Can I customize the colors?</h4>
+        <iconify-icon icon="mdi:chevron-down" class="chevron"></iconify-icon>
+      </div>
+      <div class="faq-answer">
+        <p>Absolutely. Just change the CSS variables at the top of your stylesheet.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+            
+            <block>
+                <h4>Welcome to Alone Warrior</h4>
+                <p>A platform for Your website Design. Try to get discount for it.</p>
+                <button>Explore More <iconify-icon icon="meteor-icons:angle-right" width="24px" height="24px"></iconify-icon> </button>
+                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/shapes-3d-icon-download-in-png-blend-fbx-gltf-file-formats--shape-object-abstract-graphic-design-pack-development-icons-5588320.png?hl=en-US">
+            </block>
+            
+        </main>
+        
+        <footer id="cont">
+            <h3>Thank you for visiting Here</h3>
+            <h2>Alone Warrior</h2>
+             <div class="footer-grid">
+        
+            <h4 id="contact">Contact Us</h4>
+            <p>Email: patanahi@gmail.com</p>
+            <p>Phone: (+91) 000 000 0000</p>
+            <p>Address: Sololearn,Play Store(12123) </p>
+    </div>
+    
+    <div class="social-icons">
+        <a href="#" aria-label="github">
+           <iconify-icon class="iconify" icon="tabler:brand-github" width="24" height="24"></iconify-icon>
+        </a>
+        <a href="#" aria-label="codepen">
+            <iconify-icon class="iconify" icon="tabler:brand-codepen" width="24" height="24"></iconify-icon>
+        </a>
+        <a href="#" aria-label="Leetcode">
+            <iconify-icon class="iconify" icon="tabler:brand-leetcode" width="24" height="24"></iconify-icon>
+        </a>
+        <a href="#" aria-label="Youtube">
+            <iconify-icon class="iconify" icon="tabler:brand-youtube" width="24" height="24"></iconify-icon>
+        </a>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2025 Made with 🤟 by Hritik. All rights reserved.</p>
+    </div>
+        </footer>
+        
+        <script>
+        
+        AOS.init();
+        
+            const counters = document.querySelectorAll('.counter');
+counters.forEach(counter => {
+  const target = +counter.getAttribute('data-target');
+  const increment = target / 100;
+  let current = 0;
+  
+  const updateCounter = () => {
+    if (current < target) {
+      current += increment;
+      counter.innerText = Math.ceil(current);
+      setTimeout(updateCounter, 20);
+    } else {
+      counter.innerText = target;
+    }
+  };
+  
+  updateCounter();
+});
+
+// Add this script at the bottom of your HTML
+const slides = document.querySelectorAll('.slide');
+const dots = document.querySelectorAll('.dot');
+let currentSlide = 0;
+
+function showSlide(index) {
+  slides.forEach(slide => slide.classList.remove('active'));
+  dots.forEach(dot => dot.classList.remove('active'));
+  
+  slides[index].classList.add('active');
+  dots[index].classList.add('active');
+  currentSlide = index;
+}
+
+dots.forEach(dot => {
+  dot.addEventListener('click', () => {
+    showSlide(parseInt(dot.getAttribute('data-slide')));
+  });
+});
+
+// Auto-rotate every 5 seconds
+setInterval(() => {
+  currentSlide = (currentSlide + 1) % slides.length;
+  showSlide(currentSlide);
+}, 5000);
+
+document.querySelectorAll('.faq-question').forEach(question => {
+  question.addEventListener('click', () => {
+    const item = question.parentElement;
+    item.classList.toggle('active');
+  });
+});
+        </script>
+    </body>
+  </html>
